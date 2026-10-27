@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tank Problem Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Water Tank Problem</h1>
+            <p>Compute and visualize the units of water stored between blocks.</p>
+        </header>
+
+        <div class="control-panel">
+            <div class="input-group">
+                <label for="arrayInput">Enter Block Heights (comma-separated):</label>
+                <input type="text" id="arrayInput" value="0,4,0,0,0,6,0,6,4,0" placeholder="e.g., 0,4,0,0,0,6,0,6,4,0">
+            </div>
+            <div class="button-group">
+                <button id="visualizeBtn" class="btn primary">Calculate & Visualize</button>
+                <button id="resetBtn" class="btn secondary">Reset Default</button>
+            </div>
+        </div>
+
+        <div class="results-card">
+            <h2>Total Water Stored: <span id="outputUnits">0</span> Units</h2>
+        </div>
+
+        <div class="visualization-container">
+            <h3>Graphical Representation (SVG)</h3>
+            <div id="svgContainer" class="svg-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

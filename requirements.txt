@@ -1,0 +1,13 @@
+tensorflow
+matplotlib
+pillow
+datasets
+sentence-transformers
+rank-bm25
+faiss-cpu
+rouge-score
+google-genai
+gradio
+numpy
+pandas
+seaborn
